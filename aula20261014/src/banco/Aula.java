@@ -7,5 +7,7 @@ public class Aula {
 		System.out.println("\n Java conectando com MySQL via JDBC.");
 		
 		Banco banco = new Banco();
+		
+		banco.executarComando("INSERT INTO tbAluno ( NOME ) VALUES ('FABIANINHO')");
 	}
 }
